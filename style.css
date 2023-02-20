@@ -1,0 +1,173 @@
+body {
+	background-color: #f9f9f9;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 50px;
+	max-width: 800px;
+	text-align: center;
+}
+
+.title {
+	margin-bottom: 30px;
+}
+
+.title h1 {
+	font-size: 50px;
+	color: #d79a70;
+	margin: 0;
+    font-family: 'Great Vibes', cursive; 
+}
+
+.date {
+	margin-bottom: 30px;
+}
+
+.date h2 {
+	font-size: 30px;
+	color: #333;
+	margin: 0;
+}
+
+.countdown {
+	margin-bottom: 50px;
+}
+
+.countdown-timer {
+	display: flex;
+	justify-content: center;
+}
+
+.countdown-item {
+	margin: 0 10px;
+}
+
+.countdown-item span {
+	font-size: 60px;
+	color: #e8a77c;
+}
+
+.countdown-item p {
+	font-size: 20px;
+	color: #333;
+	margin: 0;
+}
+
+.message {
+	margin-bottom: 50px;
+}
+
+.message p {
+	font-size: 20px;
+	color: #333;
+	margin: 0;
+}
+
+.rsvp {
+	margin-bottom: 30px;
+}
+
+button {
+	background-color: #d79a70;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #f15a24;
+}
+body {
+background-image: linear-gradient(to left,rgb(250, 250, 250),rgb(231, 177, 227),rgb(231, 208, 212));
+  }
+.countdown-item{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 2px black;
+    animation: time-stamper infinite 2s;
+}  
+  
+a{
+    text-decoration: none;
+    color: white;
+}
+.lovely{
+	font-size: 35px !important ;
+	color: #d770bf !important;
+	font-family: 'Great Vibes', cursive;
+	margin: 0;
+    margin-top: 20px;
+}
+.details-ul{
+    list-style: none;
+    list-style-type: none;
+   
+}
+.wed-info{
+color: rgb(234, 15, 234);
+margin: 10px;
+}
+.time-stamps {
+    
+    padding: 5px;
+    color: white;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: black;
+    box-shadow: 0 0 2px white;
+    border-radius: 3px;
+  
+}
+
+
+@keyframes time-stamper {
+    10% {
+        
+        background-color: rgb(134, 125, 125);
+    }
+
+}
+.countdown-timer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .countdown-item {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .countdown-item {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .countdown-timer {
+      flex-wrap: wrap;
+    }
+  
+    .countdown-item {
+      width: 100%;
+      font-size: 1rem;
+      margin: 10px;
+    }
+    .wed-info{
+        margin: 10px;
+    }
+    .time-stamps{
+        font-size: 13px;
+        display: block;
+    }
+  }
+  
